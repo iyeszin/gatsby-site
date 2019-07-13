@@ -1,15 +1,16 @@
 import React from 'react';
+import { Layout } from '../components/Layout';
 
 const HomePage = () => {
 	return (
-		<div>
+		<Layout>
 			<h1>
 				Welcome to Iye Szin's Gatsby Site
 			</h1>
 			<p>
 				crafted with tears and love.
 			</p>
-		</div>
+		</Layout>
 	)
 }
 
